@@ -1,0 +1,34 @@
+author: Kashyap Chhatbar
+
+gsms: "config/gsms.tsv"
+samples: "config/samples.tsv"
+se_samples: "config/se_samples.tsv"
+chip_input: "config/chip_input.yml"
+
+genome_links:
+  human:
+    fasta: https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz
+    gtf: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/914/755/GCF_009914755.1_T2T-CHM13v2.0/GCF_009914755.1_T2T-CHM13v2.0_genomic.gtf.gz
+    blacklist: https://github.com/Boyle-Lab/Blacklist/raw/master/lists/hg38-blacklist.v2.bed.gz
+  yeast:
+    fasta: https://ftp.ensembl.org/pub/release-112/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz
+    gtf: https://ftp.ensembl.org/pub/release-112/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.112.gtf.gz
+  mouse:
+    fasta: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M35/GRCm39.primary_assembly.genome.fa.gz
+    gtf: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M35/gencode.vM35.primary_assembly.basic.annotation.gtf.gz
+    blacklist: https://github.com/Boyle-Lab/Blacklist/raw/master/lists/mm10-blacklist.v2.bed.gz
+  fly:
+    fasta: http://ftp.ensembl.org/pub/release-112/fasta/drosophila_melanogaster/dna/Drosophila_melanogaster.BDGP6.46.dna.toplevel.fa.gz
+    gtf: http://ftp.ensembl.org/pub/release-112/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.46.112.gtf.gz
+
+# Primary Spike-in
+spikein: False
+
+# Spike-in genomes
+extra_spikein: False
+
+# Genome
+genomes:
+  reference: "mouse"
+  spikein: "fly"
+  extra_spikein: "yeast"

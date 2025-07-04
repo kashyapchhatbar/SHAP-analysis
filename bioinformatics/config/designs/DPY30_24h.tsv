@@ -1,0 +1,5 @@
+sample_name	treatment	clone	jointly_handled
+GSM5509823	DMSO	DPY30	one
+GSM5509824	DMSO	DPY30	two
+GSM5509825	DPY30_24h	DPY30	one
+GSM5509826	DPY30_24h	DPY30	two

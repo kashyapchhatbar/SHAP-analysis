@@ -1,0 +1,7 @@
+Best trial: 553
+Value: 0.9505516791410047
+Params:
+alpha: 0.02089299266412361
+hidden_layer_sizes_1: 62
+hidden_layer_sizes_2: 58
+activation: relu

@@ -1,0 +1,7 @@
+name: genomicfeatures
+channels:
+- https://conda.anaconda.org/bioconda
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- bioconductor-genomicfeatures
+- r-dplyr

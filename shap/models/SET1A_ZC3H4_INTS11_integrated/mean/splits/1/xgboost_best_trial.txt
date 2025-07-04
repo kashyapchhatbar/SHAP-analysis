@@ -1,0 +1,6 @@
+Best trial: 757
+Value: 0.9484853632147198
+Params:
+learning_rate_init: 0.057783796436936506
+tree_method: hist
+max_depth: 8

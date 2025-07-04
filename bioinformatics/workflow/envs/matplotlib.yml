@@ -1,0 +1,11 @@
+name: matplotlib
+channels:
+- https://conda.anaconda.org/bioconda
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- pip
+- pip:
+  - matplotlib
+  - pandas
+  - seaborn
+  - scipy

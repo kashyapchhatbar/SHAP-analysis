@@ -1,0 +1,6 @@
+Best trial: 3
+Value: 0.9333030671851094
+Params:
+fit_intercept: True
+copy_X: False
+positive: False

@@ -1,0 +1,5 @@
+sample_name	treatment	clone	jointly_handled
+GSM5509837	DMSO	RBBP5	one
+GSM5509838	DMSO	RBBP5	two
+GSM5509841	RBBP5_8h	RBBP5	one
+GSM5509842	RBBP5_8h	RBBP5	two

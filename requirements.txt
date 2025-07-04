@@ -1,7 +1,0 @@
-scikit-learn
-pandas
-seaborn
-optuna
-shap
-rich
-pyspark

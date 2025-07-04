@@ -1,0 +1,6 @@
+Best trial: 812
+Value: 0.9227388856460829
+Params:
+learning_rate_init: 0.07955793599866721
+tree_method: exact
+max_depth: 6

@@ -1,0 +1,5 @@
+sample_name	treatment	clone	jointly_handled
+GSM7187862	DMSO	INTS11	one
+GSM7187863	DMSO	INTS11	two
+GSM7187864	INTS11_2h	INTS11	one
+GSM7187865	INTS11_2h	INTS11	two

@@ -1,0 +1,40 @@
+# Snakefile for Bioinformatics Workflow
+# Author: Kashyap Chhatbar
+# Date: 2024-06-21
+
+# Purpose: This workflow is designed for comprehensive analysis in bioinformatics
+# projects. It includes steps for quality control, mapping, feature counting, and
+# differential expression analysis among others.
+
+# Usage: snakemake --use-conda -p -j 1 --dry-run
+
+# Workflow details:
+
+# data: TT-chem-seq data
+
+# config/config.yml: Configuration file for the workflow
+
+# Rules:
+# 1. rules/common.smk: Common rules for the workflow like reading config file
+# 2. rules/genomes.smk: Downloading genomes and creating index files
+
+from snakemake.utils import min_version
+
+# set minimum snakemake version # 
+min_version("7.29.0")
+
+configfile: "config/config.yml"
+
+include: "rules/common.smk"
+if download_ffq_rule:
+    include: "rules/ffq.smk"
+    
+include: "rules/genomes.smk"
+include: "rules/map.smk"
+include: "rules/qc.smk"
+include: "rules/feature_counts.smk"
+include: "rules/deseq2.smk"
+include: "rules/feature_counts_peaks.smk"
+include: "rules/deseq2_peaks.smk"
+include: "rules/macs2.smk"
+include: "rules/heatmaps.smk"

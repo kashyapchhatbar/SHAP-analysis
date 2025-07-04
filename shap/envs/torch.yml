@@ -1,0 +1,19 @@
+name: matplotlib
+channels:
+- https://conda.anaconda.org/bioconda
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- python=3.10
+- pip
+- pip:
+  - matplotlib
+  - pandas
+  - seaborn
+  - scipy
+  - scikit-learn
+  - optuna
+  - shap
+  - xgboost 
+  - torch
+  - torchvision
+  - torchaudio

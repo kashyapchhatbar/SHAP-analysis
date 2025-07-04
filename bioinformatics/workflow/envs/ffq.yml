@@ -1,0 +1,7 @@
+name: ffq
+channels:
+- https://conda.anaconda.org/bioconda
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- ffq
+- jq
