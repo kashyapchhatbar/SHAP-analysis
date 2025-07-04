@@ -6,19 +6,19 @@ Transcriptional regulation involves complex interactions with chromatin-associat
 
 ---
 
-<img src="shap/models/SET1A_ZC3H4_INTS11_integrated/mean/1.png" width="80%">
+<img src="shap/models/SET1A_ZC3H4_INTS11_integrated/mean/1.fixed.png" width="80%">
 
 **Fig 1.** Overview of predictive modeling for RNA Pol-II occupancy. (A) Schematic of the multilayer perceptron (MLP) model architecture used to predict RNA Pol-II occupancy based on chromatin-associated protein profiles. Input features include protein occupancy data from ChIP-seq experiments, and outputs represent predicted RNA Pol-II occupancy. (B) Model performance for predicting RNA Pol-II occupancy based on chromatin-associated protein profiles across datasets. Coefficients of determination (R2 ) are shown for training, validation and test datasets for 5 splits.
 
 ---
 
-<img src="shap/models/SET1A_ZC3H4_INTS11_integrated/mean/S7.png" width="60%">
+<img src="shap/models/SET1A_ZC3H4_INTS11_integrated/mean/S7.fixed.png" width="60%">
 
 **S7 Fig.** Potential crosstalk between Integrator and Restrictor complexes in transcriptional regulation
 
 ---
 
-<img src="shap/models/SET1A_ZC3H4_INTS11_integrated/mean/github_6.png" width="80%">
+<img src="shap/models/SET1A_ZC3H4_INTS11_integrated/mean/github_6.fixed.png" width="80%">
 
 **Fig 6.** SHAP values for chromatin-associated proteins profiled in integrative model from Hughes et al. [21] and Wang et al. [22] (A) Heatmap of absolute mean SHAP values for different algorithms DeepSHAP, KernelSHAP and TreeSHAP is plotted for direct targets (blue) and random genes (black) following INTS11 degradation and ZC3H4 degradataion. (B) Fraction of overlapping direct target genes with genes ranked by summed SHAP values of INTS11 and ZC3H4 (blue lines) compared to genes ranked by normalised ChIP-seq signal (grey lines). (C) Absolute pearson correlation between SHAP values from different algorithms and log2 fold change following acute depletion of INTS11 and ZC3H4. As a control comparison, normalised ChIP-seq was correlated with log2 fold change. Error is estimated by calculating correlation coefficients for all 5 splits and the error bars indicate the standard deviation of one-half.
 
