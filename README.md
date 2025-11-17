@@ -48,3 +48,21 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+## Citation
+
+
+## Citation:
+If this code is useful in your work, please cite our paper.
+
+```bibtex
+@article{10.1371/journal.pgen.1011908,
+    doi = {10.1371/journal.pgen.1011908},
+    author = {Chhatbar, Kashyap AND Bird, Adrian AND Sanguinetti, Guido},
+    journal = {PLOS Genetics},
+    publisher = {Public Library of Science},
+    title = {Modelling transcription with explainable AI uncovers context-specific epigenetic gene regulation at promoters and gene bodies},
+    year = {2025},
+    url = {https://doi.org/10.1371/journal.pgen.1011908},
+}
+```
