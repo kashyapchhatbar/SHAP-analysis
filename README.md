@@ -1,3 +1,5 @@
+Chhatbar K, Bird A, Sanguinetti G (2025) Modelling transcription with explainable AI uncovers context-specific epigenetic gene regulation at promoters and gene bodies. PLoS Genet 21(10): e1011908. https://doi.org/10.1371/journal.pgen.1011908
+
 [![DOI](https://img.shields.io/badge/bioR%CF%87iv%20DOI-10.1101%2F2025.01.30.635704%20-BC2635)](https://doi.org/10.1101/2025.01.30.635704)
 
 ## Modeling transcription with explainable AI uncovers context-specific epigenetic gene regulation at promoters and gene bodies
