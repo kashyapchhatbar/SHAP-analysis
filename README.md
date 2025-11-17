@@ -53,7 +53,7 @@ This work is licensed under a
 If this code is useful in your work, please cite our paper.
 
 ```bibtex
-@article{chhatbar2025_modelling,
+@article{chhatbar2025_modeling,
     doi = {10.1371/journal.pgen.1011908},
     author = {Chhatbar, Kashyap AND Bird, Adrian AND Sanguinetti, Guido},
     journal = {PLOS Genetics},
