@@ -2,7 +2,7 @@ Chhatbar K, Bird A, Sanguinetti G (2025) Modelling transcription with explainabl
 
 [![DOI](https://img.shields.io/badge/bioR%CF%87iv%20DOI-10.1101%2F2025.01.30.635704%20-BC2635)](https://doi.org/10.1101/2025.01.30.635704)
 
-## Modeling transcription with explainable AI uncovers context-specific epigenetic gene regulation at promoters and gene bodies
+## Modelling transcription with explainable AI uncovers context-specific epigenetic gene regulation at promoters and gene bodies
 
 Transcriptional regulation involves complex interactions with chromatin-associated proteins, but disentangling these mechanistically remains challenging. Here, we generate deep learning models to predict RNA Pol-II occupancy from chromatin-associated protein profiles in unperturbed conditions. We evaluate the suitability of Shapley Additive Explanations (SHAP), a widely used explainable AI (XAI) approach, to infer functional relevance and analyse regulatory mechanisms across diverse datasets. We aim to validate these insights using data from degron-based perturbation experiments. Remarkably, genes ranked by SHAP importance predict direct targets of perturbation even from unperturbed data, enabling inference without costly experimental interventions. Our analysis reveals that SHAP not only predicts differential gene expression but also captures the magnitude of transcriptional changes. We validate the cooperative roles of SET1A and ZC3H4 at promoters and uncover novel regulatory contributions of ZC3H4 at gene bodies in influencing transcription. Cross-dataset validation uncovers unexpected connections between ZC3H4, a component of the Restrictor complex, and INTS11, part of the Integrator complex, suggesting crosstalk mediated by H3K4me3 and the SET1/COMPASS complex in transcriptional regulation. These findings highlight the power of integrating predictive modelling and experimental validation to unravel complex context-dependent regulatory networks and generate novel biological hypotheses.
 
@@ -53,7 +53,7 @@ This work is licensed under a
 If this code is useful in your work, please cite our paper.
 
 ```bibtex
-@article{chhatbar2025_modeling,
+@article{chhatbar2025_modelling,
     doi = {10.1371/journal.pgen.1011908},
     author = {Chhatbar, Kashyap AND Bird, Adrian AND Sanguinetti, Guido},
     journal = {PLOS Genetics},
